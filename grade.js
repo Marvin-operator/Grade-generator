@@ -1,6 +1,7 @@
 const prompt = require('prompt-sync')();
 
 let marks = Number(prompt("Enter Student's Marks: "));
+//Grading guideline
 
 if (marks<=100 && marks>=79) 
 {
